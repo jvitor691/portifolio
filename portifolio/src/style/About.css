@@ -1,0 +1,106 @@
+.Section-about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    background: linear-gradient(250deg,
+            #14181f 0%,
+            #0e1218 100%);
+
+    color: #fff;
+    gap: 32px;
+}
+
+.About-content {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    background: rgba(61, 71, 90, 0.35);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 60px;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.About-content h1 {
+    color: rgb(18, 96, 123);
+    border-bottom: 1px solid #fff;
+}
+
+.About-content p {
+    font-size: large;
+}
+
+.About-skill {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    background: rgba(61, 71, 90, 0.35);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 60px;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.About-skill h3 {
+    color: rgb(18, 96, 123);
+    border-bottom: 1px solid #fff;
+}
+
+.About-training {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    background: rgba(61, 71, 90, 0.35);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 60px;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.About-training h3 {
+    color: rgb(18, 96, 123);
+    border-bottom: 1px solid #fff;
+}
+
+.About-training p {
+    font-size: large;
+}
